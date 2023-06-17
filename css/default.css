@@ -11759,9 +11759,3 @@ p.admonition-title {
 .admonition>:last-child {
   margin-bottom: 0rem !important;
 }
-#toc {
-  align-self: flex-start;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0.75rem;
-}
