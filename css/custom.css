@@ -12,13 +12,13 @@
 p.admonition-title {
   position: relative;
   margin: -1rem -1rem 0em -1rem !important;
-  padding: 0.4rem 0.6rem 0.4rem 2.5rem;
+  padding: 0.35rem 0.6rem 0.3rem 2.5rem;
   font-weight: 700;
   background-color: rgba(66,185,131,0.1);
 }
 .admonition-title::before {
   position: absolute;
-  top: 0.8rem;
+  top: 0.75rem;
   left: 1rem;
   width: 12px;
   height: 12px;
