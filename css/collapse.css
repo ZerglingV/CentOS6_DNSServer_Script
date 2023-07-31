@@ -2,12 +2,24 @@
   margin: 0.5rem 0 0.5rem 0;
 }
 
+.collapse ol {
+  margin-top: 0;
+}
+
+.collapse ul {
+  margin-top: 0;
+}
+
+.collapse ul ul{
+  margin-top: 0.2em;
+}
+
 .collapse .collapse-content:not(.expanded) {
   display: none;
 }
 
 .collapse-content .content-flex {
-  display: flex;
+  display: block;
 }
 
 .collapse .collapsing {
@@ -17,19 +29,25 @@
 }
 
 .collapse .collapse-cardtitle {
-  background: rgba(0, 0, 0, 0.175);
-  border-radius: 0.175rem 0.175rem 0 0;
-  padding: 0.3rem 1rem;
-  font-size: 0.85rem;
+  background-color: #42b9831a;
+  border-left: 0.375rem solid #42b983;
+  border-radius: 0.375rem;
+  padding: 0.3rem 0.3rem 0.3rem 0.9rem;
+  font-size: 1.1rem;
   font-weight: bold;
   display: block;
   cursor: pointer;
 }
 
+.collapse .collapse-cardtitle.non-radius-border {
+  border-radius: 0.375rem 0.375rem 0 0;
+}
+
 .collapse .collapse-cardborder {
   margin: 0 0;
   padding: 0.5rem 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.175);
+  background-color: #fafafa;
+  border-left: 0.375rem solid #42b983;
   border-radius: 0 0 0.375rem 0.375rem;
   position: relative;
   clear: both;
@@ -38,7 +56,7 @@
 .collapse .collapse-border {
   margin: 0 0;
   padding: 0.5rem 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.175);
+  border: 1px solid #0000002d;
   border-radius: 0.375rem;
   position: relative;
   clear: both;
@@ -53,11 +71,64 @@
 .collapse .collapse-ctrl .collapse-hint-ico {
   display: inline-block;
   transition: all 0.35s ease;
-  margin-right: 0.25rem;
+  margin-right: 0.6rem;
+  color: #42b983;
 }
 .collapse .collapse-ctrl:not(.show) .collapse-hint-ico {
   transform: rotate(0deg);
 }
 .collapse .collapse-ctrl.show .collapse-hint-ico {
   transform: rotate(90deg);
+}
+
+/* type of theme */
+.info .collapse-cardtitle,
+.todo .collapse-cardtitle {
+  background-color: #00b8d41a;
+  border-color: #00b8d4;
+}
+.info .collapse-cardborder,
+.todo .collapse-cardborder {
+  border-color: #00b8d4;
+}
+.info>.collapse-ctrl>.collapse-hint-ico,
+.todo>.collapse-ctrl>.collapse-hint-ico {
+  color: #00b8d4;
+}
+
+.warning .collapse-cardtitle,
+.attention .collapse-cardtitle,
+.caution .collapse-cardtitle {
+  background-color: #ff91001a;
+  border-color: #ff9100;
+}
+.warning .collapse-cardborder,
+.attention .collapse-cardborder,
+.caution .collapse-cardborder {
+  border-color: #ff9100;
+}
+.warning>.collapse-ctrl>.collapse-hint-ico,
+.attention>.collapse-ctrl>.collapse-hint-ico,
+.caution>.collapse-ctrl>.collapse-hint-ico {
+  color: #ff9100;
+}
+
+.failure .collapse-cardtitle,
+.missing .collapse-cardtitle,
+.fail .collapse-cardtitle,
+.error .collapse-cardtitle {
+  background-color: #ff52521a;
+  border-color: #ff5252;
+}
+.failure .collapse-cardborder,
+.missing .collapse-cardborder,
+.fail .collapse-cardborder,
+.error .collapse-cardborder {
+  border-color: #ff5252;
+}
+.failure>.collapse-ctrl>.collapse-hint-ico,
+.missing>.collapse-ctrl>.collapse-hint-ico,
+.fail>.collapse-ctrl>.collapse-hint-ico,
+.error>.collapse-ctrl>.collapse-hint-ico {
+  color: #ff5252;
 }
