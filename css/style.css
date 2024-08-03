@@ -11683,5 +11683,5 @@ figure.highlight.foldable div.level-left {
 }
 .content table td,
 .content table th {
-  vertical-align: baseline;
+  vertical-align: middle;
 }
