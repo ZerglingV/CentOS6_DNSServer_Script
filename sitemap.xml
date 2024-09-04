@@ -2,18 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zerglingv.github.io/2024/07/25/WOW%20List/</loc>
+    <loc>https://zerglingv.github.io/2024/09/04/Temp_download/</loc>
     
-    <lastmod>2024-08-09</lastmod>
+    <lastmod>2024-09-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zerglingv.github.io/2023/09/07/Note0/</loc>
+    <loc>https://zerglingv.github.io/2024/08/15/WOW_mount/</loc>
     
-    <lastmod>2024-07-25</lastmod>
+    <lastmod>2024-09-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zerglingv.github.io/2024/07/25/WOW_list/</loc>
+    
+    <lastmod>2024-09-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +31,16 @@
   <url>
     <loc>https://zerglingv.github.io/2023/06/13/Note1/</loc>
     
-    <lastmod>2024-01-20</lastmod>
+    <lastmod>2024-08-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zerglingv.github.io/2023/09/07/Note0/</loc>
+    
+    <lastmod>2024-08-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +49,7 @@
 
   <url>
     <loc>https://zerglingv.github.io/</loc>
-    <lastmod>2024-08-10</lastmod>
+    <lastmod>2024-09-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -39,14 +57,21 @@
   
   <url>
     <loc>https://zerglingv.github.io/tags/private/</loc>
-    <lastmod>2024-08-10</lastmod>
+    <lastmod>2024-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zerglingv.github.io/tags/temp/</loc>
+    <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zerglingv.github.io/tags/wow/</loc>
-    <lastmod>2024-08-10</lastmod>
+    <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -55,14 +80,21 @@
   
   <url>
     <loc>https://zerglingv.github.io/categories/notes/</loc>
-    <lastmod>2024-08-10</lastmod>
+    <lastmod>2024-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zerglingv.github.io/categories/private/</loc>
+    <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://zerglingv.github.io/categories/games/</loc>
-    <lastmod>2024-08-10</lastmod>
+    <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
